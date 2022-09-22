@@ -11,14 +11,14 @@
     
   }
   
-  .Auth-form {
+  .Auth-formS {
     width: 420px;
     box-shadow: rgb(0 0 0 / 16%) 1px 1px 10px;
     padding-top: 30px;
     padding-bottom: 20px;
     border-radius: 8px;
-    background-color: rgb(201, 230, 236);
-    opacity: 0.9;
+    background-color: rgb(136, 174, 137);
+    opacity: 0.8;
     
   }
   

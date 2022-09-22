@@ -6,7 +6,7 @@ export default function SignUp() {
   return (
     <div className='BackgroundSup'>
     <div className="Auth-form-container">
-      <form className="Auth-form">
+      <form className="Auth-formS">
         <div className="Auth-form-content">
           <h3 className="Auth-form-title">Sign Up</h3>
           
