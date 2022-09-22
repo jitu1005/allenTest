@@ -2,9 +2,9 @@ import React from 'react'
 import  "./SignUp.css"
 import { Link } from 'react-router-dom'
 
-export default function SignUp(props) {
+export default function SignUp() {
   return (
-    <div className='Background'>
+    <div className='BackgroundSup'>
     <div className="Auth-form-container">
       <form className="Auth-form">
         <div className="Auth-form-content">
@@ -48,7 +48,7 @@ export default function SignUp(props) {
             </button>
           </div>
           <p className="forgot-password text-right mt-2">
-            Forgot <Link to="/">password?</Link>
+             <Link to="/">Terms and Conditions</Link>
           </p>
         </div>
       </form>
