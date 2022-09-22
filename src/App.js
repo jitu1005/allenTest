@@ -4,7 +4,7 @@ import Navigation from "./Component/Navigation";
 import LandingPage from "./Component/LandingPage";
 import LoginPage from "./Component/LoginPage";
 import SignUp from "./Component/SignUp";
-import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
