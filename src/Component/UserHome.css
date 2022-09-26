@@ -1,0 +1,125 @@
+.UserHome  {
+    background-color: white;
+
+    height:100vh
+}
+.Auth-form-containerU {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    /* height: 100vh; */
+    
+  }
+
+  .headertext {
+    width:auto;
+    height: auto;
+    margin-left: 614px;
+    margin-top: 5px;
+  }
+
+  .card {
+    border: 10px;
+    /* box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); */
+    box-shadow: 1px 2px 3px 4px rgba(20,20,20,0.4);
+
+    width: 220px;
+    height: 260px;
+    margin-left: 650px;
+    border-radius: 25px;
+    border-width: 2px;
+  }
+
+  .card1 {
+    /* box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); */
+    /* box-shadow: 1px 2px 3px 4px rgba(20,20,20,0.4); */
+    box-shadow: 0 27px 20px -19px rgb(122 62 134 / 31%);
+    width: 90%;
+    height: 35%;
+    margin-left: 5%;
+    border-radius: 10px;
+    margin-top: 40px;
+    
+    /* background-color: white; */
+    background-color: #f2f2f2;
+    padding: 50px 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+
+  }
+
+  .afc-learning-prg-title{
+    position: absolute;
+    top: 0%;
+    left:50%;
+    transform: translateX(-50%);
+    background-image: linear-gradient(to right,#5c72ff,#8c3fff);
+    font-weight: 700;
+    border-radius: 0 0 10px 10px;
+    width: 150px;
+    text-align: center;
+    font-size: 18px;
+    padding: 5px 20px;
+  }
+
+  .afc-left-image-card {
+    margin: 0;
+    padding: 0;
+  }
+
+  .img-phy-logo{
+    /* height: 12rem;
+    border-top-left-radius: 25px;
+    margin-top: 36px; */
+    margin-left: -500px;
+    max-width: 220px;
+  }
+
+  .img-afc-right-image-card {
+    height:6rem;
+    margin-top: -20px;
+    margin-left: -650px;
+    
+    
+
+  }
+
+  .card-text {
+    margin-top: 10px;
+    margin-left: -650px;
+    font-style:italic;
+    font-family: 'Franklin Gothic Medium';
+  }
+
+  .vline {
+    position: absolute;
+    width: 1px;
+    height: 110px;
+    top: 48%;
+    transform: translateY(-45%);
+    left: 50%;
+    color: #d9d9d9;
+    display: block;
+    box-shadow: #cac6c6 2px 0;
+    background: #fff;
+  }
+
+   .text {
+    padding-top: 10px;
+    text-align: center;
+    font-family: arial;
+    font-size: large;
+    font-weight: bold;
+        
+  }
+  .textBottom {
+    padding-top: 10px;
+    text-align: center;
+    font-family: arial;
+    font-size: 12px;
+    margin-top: -20px;
+        
+  }

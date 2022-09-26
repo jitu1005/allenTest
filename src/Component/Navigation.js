@@ -33,8 +33,9 @@ export default function Navigation(props) {
             aria-label="Toggle navigation"
           >
             <span className="navbar-toggler-icon"></span>
+            <i className="fas fa-bars"></i>
           </button>
-          <div className="collapse navbar-collapse" id="navbarText">
+          <div className="collapse navbar-collapse" id="navbarText" >
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
               <li className="nav-item">
                 <Link className="nav-link active" aria-current="page" to="/">

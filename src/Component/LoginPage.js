@@ -4,7 +4,7 @@ import {Link} from 'react-router-dom';
 
 
 export default function LoginPage() {
-  return (
+  return (  
     <div className='Background'>
     <div className="Auth-form-container">
       <form className="Auth-form1">
