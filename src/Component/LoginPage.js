@@ -1,5 +1,7 @@
 import React from 'react'
 import "./LoginPage.css"
+import {Link} from 'react-router-dom';
+
 
 export default function LoginPage() {
   return (
@@ -9,7 +11,7 @@ export default function LoginPage() {
         <div className="Auth-form-content">
           <h3 className="Auth-form-title">Sign In</h3>
           <div className="form-group mt-3">
-            <label>Email address</label>
+            {/* <label>Email address</label> */}
             <input
               type="email"
               className="form-control mt-1"
@@ -17,17 +19,18 @@ export default function LoginPage() {
             />
           </div>
           <div className="form-group mt-3">
-            <label>Password</label>
+            {/* <label>Password</label> */}
             <input
               type="password"
-              className="form-control mt-1"
+              className="form-control mt-4"
               placeholder="Enter password"
             />
           </div>
-          <div className="d-grid gap-2 mt-3">
-            <button type="submit" className="btn btn-primary">
+          {/* To re-direct towards the new Page */}
+          <div className="d-grid gap-2 mt-4">
+            <Link button type="submit" className="btn btn-primary" to="/">
               Submit
-            </button>
+            </Link>
           </div>
           <p className="forgot-password text-right mt-2">
             Forgot <a href="/">password?</a>
