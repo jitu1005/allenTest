@@ -28,7 +28,7 @@ export default function LoginPage() {
           </div>
           {/* To re-direct towards the new Page */}
           <div className="d-grid gap-2 mt-4">
-            <Link button type="submit" className="btn btn-primary" to="/">
+            <Link button type="submit" className="btn btn-primary" to="/userhome">
               Submit
             </Link>
           </div>

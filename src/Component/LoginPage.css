@@ -45,11 +45,11 @@
   }
 
   .Background {
-    background-image: url("https://twistarticle.com/wp-content/uploads/2022/06/Allen-Career-Institute-Launches-Allen-Digital-Pvt-Ltd.jpg");
+    background-image: url("C:\Users\Asus\Downloads\727d7f43-0882-44c6-bafa-f9e1e550785a.jpg");
     height:100%;
     width: 100%;
     /* background-size: initial; */
-    background-size: cover;
+    background-size: contain;
     
 
   }
