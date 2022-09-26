@@ -7,7 +7,7 @@ export default function LoginPage() {
   return (
     <div className='Background'>
     <div className="Auth-form-container">
-      <form className="Auth-form">
+      <form className="Auth-form1">
         <div className="Auth-form-content">
           <h3 className="Auth-form-title">Sign In</h3>
           <div className="form-group mt-3">
