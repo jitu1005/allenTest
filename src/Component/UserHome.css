@@ -22,13 +22,17 @@
   .card {
     border: 10px;
     /* box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); */
-    box-shadow: 1px 2px 3px 4px rgba(20,20,20,0.4);
-
+    /* box-shadow: 1px 2px 3px 4px rgba(20,20,20,0.4); */
+    box-shadow: 0 27px 20px -19px rgb(122 62 134 / 31%);
     width: 220px;
     height: 260px;
     margin-left: 650px;
-    border-radius: 25px;
+    border-radius: 10px;
     border-width: 2px;
+    background-color: #f2f2f2;
+    display: flex;
+    position: relative;
+    
   }
 
   .card1 {
@@ -40,7 +44,6 @@
     margin-left: 5%;
     border-radius: 10px;
     margin-top: 40px;
-    
     /* background-color: white; */
     background-color: #f2f2f2;
     padding: 50px 20px;
@@ -50,6 +53,14 @@
     position: relative;
 
   }
+
+
+  .afc-left-img-card {
+  margin: 0;
+  padding: 0;
+  }
+
+  
 
   .afc-learning-prg-title{
     position: absolute;
@@ -74,14 +85,15 @@
     /* height: 12rem;
     border-top-left-radius: 25px;
     margin-top: 36px; */
-    margin-left: -500px;
+    margin-left: -200px;
     max-width: 220px;
+
   }
 
   .img-afc-right-image-card {
     height:6rem;
     margin-top: -20px;
-    margin-left: -650px;
+    margin-left: -150px;
     
     
 
@@ -89,7 +101,7 @@
 
   .card-text {
     margin-top: 10px;
-    margin-left: -650px;
+    margin-left: -150px;
     font-style:italic;
     font-family: 'Franklin Gothic Medium';
   }
@@ -105,6 +117,16 @@
     display: block;
     box-shadow: #cac6c6 2px 0;
     background: #fff;
+  }
+
+  .bfc-left-img-card-img {
+    height:10rem;
+    margin-right: -150px;
+  }
+
+  .bfc-right-img-card-img {
+    height: 10rem;
+    margin-right: -150px;
   }
 
    .text {
@@ -123,3 +145,7 @@
     margin-top: -20px;
         
   }
+
+  
+
+  

@@ -13,8 +13,8 @@ export default function UserHome() {
           style={{
             width: "100%",
             height: "100%",
-            borderTopLeftRadius: 25,
-            borderTopRightRadius: 25,
+            borderTopLeftRadius: 10,
+            borderTopRightRadius: 10,
           }}
         />
         <div>
@@ -36,10 +36,19 @@ export default function UserHome() {
                 </p>
             </div>
         </div>
-        <div className="vline">
+        <div className="vline"></div>
+         
+            <div className="bfc-left-img-card">
+                <img className="bfc-left-img-card-img" src="./tutor.png" alt="tutorimg" />
+            </div>
+            <div className="bfc-right-img-card">
+                <img className="bfc-right-img-card-img" src="./IAS.png" alt="IAS"/>
+            </div>
+            
 
-        </div>
+            
 
+        
         
       </div>
     </div>
