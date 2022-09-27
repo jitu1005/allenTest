@@ -32,7 +32,7 @@
     border: 10px;
     /* box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); */
     /* box-shadow: 1px 2px 3px 4px rgba(20,20,20,0.4); */
-    box-shadow: 0 27px 20px -19px rgb(122 62 134 / 31%);
+    box-shadow: 0 27px 20px -19px #069594;
     width: 220px;
     height: 260px;
     margin-left: 650px;
@@ -49,13 +49,13 @@
     /* color: white; */
     cursor: pointer;
     transform: scale(1.03);
-    transition: all 0.5s ease;
+    transition: all 0.4s ease;
   }
 
   .card1 {
     /* box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); */
     /* box-shadow: 1px 2px 3px 4px rgba(20,20,20,0.4); */
-    box-shadow: 0 27px 20px -19px rgb(122 62 134 / 31%);
+    box-shadow: 0 27px 20px -19px #069594;
     width: 90%;
     height: 35%;
     margin-left: 5%;
@@ -76,11 +76,11 @@
     /* color: white; */
     cursor: pointer;
     transform: scale(1.03);
-    transition: all 0.5s ease;
+    transition: all 0.4s ease;
   }
 
   .card2 {
-    box-shadow: 0 27px 20px -19px rgb(122 62 134 / 31%);
+    box-shadow: 0 27px 20px -19px #069594;
     width: 90%; 
     height: 300px;
     margin-left: 5%;
@@ -96,6 +96,31 @@
     
   }
 
+  .card2:hover {
+    /* background-color: rgb(62,62,62); */
+    /* color: white; */
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: all 0.4s ease;
+
+  }
+
+  .card3 {
+    box-shadow: 0 27px 20px -19px #069594;
+    width: 90%; 
+    height: 300px;
+    margin-left: 5%;
+    border-radius: 10px;
+    margin-top: 50px;
+    /* background-color: white; */
+    background-color: #f2f2f2;
+    padding: 50px 20px;
+    /* display: flex; */
+    /* justify-content: space-evenly; */
+    /* align-items: center; */
+    position:relative;
+  }
+
   .afc-left-img-card {
   margin: 0;
   padding: 0;
@@ -108,7 +133,35 @@
     top: 0%;
     left:50%;
     transform: translateX(-50%);
-    background-image: linear-gradient(to right,#5c72ff,#8c3fff);
+    background-image: linear-gradient(to right,#00b8da,#0f6534);
+    font-weight: 700;
+    border-radius: 0 0 10px 10px;
+    width: 150px;
+    text-align: center;
+    font-size: 18px;
+    padding: 5px 20px;
+  }
+
+  .afc-learning-prg-title2{
+    position: absolute;
+    top: 0%;
+    left:50%;
+    transform: translateX(-50%);
+    background-image: linear-gradient(to right,#00b8da,#0f6534);
+    font-weight: 700;
+    border-radius: 0 0 10px 10px;
+    width: 150px;
+    text-align: center;
+    font-size: 18px;
+    padding: 5px 20px;
+  }
+
+  .afc-learning-prg-title3 {
+    position: absolute;
+    top: 0%;
+    left:50%;
+    transform: translateX(-50%);
+    background-image: linear-gradient(to right,#00b8da,#0f6534);
     font-weight: 700;
     border-radius: 0 0 10px 10px;
     width: 150px;
@@ -131,13 +184,31 @@
 
   }
 
+  .img-mth-logo {
+    max-width: 250px;
+    max-height: 400px;
+  }
+
+  .img-phy-logo {
+    max-width: 250px;
+    max-height: 400px;
+  }
+
   .img-afc-right-image-card {
     height:6rem;
     margin-top: -20px;
     margin-left: -150px;
-    
-    
+  }
 
+  .img-afc-right-image-card2 {
+    height:6rem;
+    margin-top: -250px;
+    margin-left: 375px;
+  }
+  .img-afc-right-image-card3 {
+    height:6rem;
+    margin-top: -310px;
+    margin-left: 375px;
   }
 
   .card-text {
@@ -147,10 +218,50 @@
     font-family: 'Franklin Gothic Medium';
   }
 
+  .card-text2 {
+    margin-top: -75px;
+    margin-left: 341px;
+    font-style:italic;
+    font-family: 'Franklin Gothic Medium';
+  }
+
+  .card-text3 {
+    margin-top: -105px;
+    margin-left: 341px;
+    font-style:italic;
+    font-family: 'Franklin Gothic Medium';
+  }
+
   .vline {
     position: absolute;
     width: 1px;
-    height: 110px;
+    height: 120px;
+    top: 48%;
+    transform: translateY(-45%);
+    left: 50%;
+    color: #d9d9d9;
+    display: block;
+    box-shadow: #cac6c6 2px 0;
+    background: #fff;
+  }
+
+  .vline2 {
+    position: absolute;
+    width: 1px;
+    height: 120px;
+    top: 48%;
+    transform: translateY(-45%);
+    left: 50%;
+    color: #d9d9d9;
+    display: block;
+    box-shadow: #cac6c6 2px 0;
+    background: #fff;
+  }
+
+  .vline3 {
+    position: absolute;
+    width: 1px;
+    height: 120px;
     top: 48%;
     transform: translateY(-45%);
     left: 50%;
@@ -165,9 +276,21 @@
     margin-right: -150px;
   }
 
+  .bfc-left-img-card-img2 {
+    height:12rem;
+    margin-left: 750px;
+    margin-top: -302px;
+  }
+
   .bfc-right-img-card-img {
     height: 10rem;
     margin-right: -150px;
+  }
+
+  .bfc-right-img-card-img2 {
+    height: 10rem;
+    margin-left: 1090px;
+    margin-top: -335px;
   }
 
    .text {

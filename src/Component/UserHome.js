@@ -47,6 +47,45 @@ export default function UserHome() {
             </div>
       </div>
            <div className="card2">
+            <span className="afc-learning-prg-title2">MATHS</span>
+            <div className="afc-left-image-card2">
+                <img className="img-mth-logo" src="./imgcard1.jpg" alt="CD2"/>
+
+            </div>
+            <div className = "afc-right-image-card2">
+            <div className="card-body text-center2">
+                <img className="img-afc-right-image-card2" src="afccard.png" alt="IMG"/>
+                <p className="card-text2">
+                    Personalised Learning App <br />
+                    for anytime anywhere
+                </p>
+            </div>
+        </div>
+        <div className="vline2"></div>
+        <div className="bfc-left-img-card2">
+                <img className="bfc-left-img-card-img2" src="./imgcards2.png" alt="imgcard2" />
+            </div>
+            <div className="bfc-right-img-card2">
+                <img className="bfc-right-img-card-img2" src="./imgcard3.jpg" alt="imgcard3"/>
+            </div>
+           </div>
+           <div className="card3">
+           <span className="afc-learning-prg-title3">CHEMISTRY</span>
+            <div className="afc-left-image-card3">
+                <img className="img-chm-logo" src="./imgcards4.png" alt="imcard4"/>
+
+            </div>
+            <div className = "afc-right-image-card3">
+            <div className="card-body text-center3">
+                <img className="img-afc-right-image-card3" src="afccard.png" alt="IMG"/>
+                <p className="card-text3">
+                    Personalised Learning App <br />
+                    for anytime anywhere
+                </p>
+            </div>
+
+        </div>
+        <div className="vline3"></div>
            </div>
            </div>
     </div>
