@@ -48,7 +48,7 @@
     /* background-color: rgb(62,62,62); */
     /* color: white; */
     cursor: pointer;
-    transform: scale(1.03);
+    transform: scale(1.05);
     transition: all 0.4s ease;
   }
 
@@ -75,7 +75,7 @@
     /* background-color: rgb(62,62,62); */
     /* color: white; */
     cursor: pointer;
-    transform: scale(1.03);
+    transform: scale(1.05);
     transition: all 0.4s ease;
   }
 
@@ -100,7 +100,7 @@
     /* background-color: rgb(62,62,62); */
     /* color: white; */
     cursor: pointer;
-    transform: scale(1.03);
+    transform: scale(1.05);
     transition: all 0.4s ease;
 
   }
@@ -119,6 +119,14 @@
     /* justify-content: space-evenly; */
     /* align-items: center; */
     position:relative;
+  }
+
+  .card3:hover {
+    /* background-color: rgb(62,62,62); */
+    /* color: white; */
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: all 0.4s ease;
   }
 
   .afc-left-img-card {
@@ -282,6 +290,12 @@
     margin-top: -302px;
   }
 
+  .bfc-left-img-card-img3 {
+    height:15rem;
+    margin-left: 770px;
+    margin-top: -302px;
+  }
+
   .bfc-right-img-card-img {
     height: 10rem;
     margin-right: -150px;
@@ -291,6 +305,12 @@
     height: 10rem;
     margin-left: 1090px;
     margin-top: -335px;
+  }
+
+  .bfc-right-img-card-img3 {
+    height: 10rem;
+    margin-left: 1090px;
+    margin-top: -350px;
   }
 
    .text {
