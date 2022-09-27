@@ -22,6 +22,7 @@ export default function UserHome() {
           <p className="textBottom">By Prof Chirag Tandon</p>
         </div>
       </div>
+      <div className="Auth-form-containerV">
       <div className="card1">
         <span className="afc-learning-prg-title">PHYSICS</span>
         <div className="afc-left-image-card">
@@ -44,13 +45,10 @@ export default function UserHome() {
             <div className="bfc-right-img-card">
                 <img className="bfc-right-img-card-img" src="./IAS.png" alt="IAS"/>
             </div>
-            
-
-            
-
-        
-        
       </div>
+           <div className="card2">
+           </div>
+           </div>
     </div>
   );
 }
