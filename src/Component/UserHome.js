@@ -1,12 +1,23 @@
 import React from "react";
 import "./UserHome.css";
+import {Link} from 'react-router-dom';
+import { useNavigate } from "react-router-dom";
 
 export default function UserHome() {
+
+    const navigate = useNavigate();
+    
+    const HandleClick = (routename) => {
+        navigate(routename);
+    // const onhandleClick = (routeName) => {
+    //     navigate(routeName);
+  } 
   return (
     <div className="UserHome">
       <div className="Auth-form-containerU"></div>
       <h3 className="headertext">IIT JEE(Main + Advance)</h3>
-      <div className="card">
+      {/* CARD STARTING HERE */}
+      <div className="card" onClick={() => HandleClick("/livepage")}>
         <img
           src="merged.gif"
           alt="IM"
@@ -23,7 +34,8 @@ export default function UserHome() {
         </div>
       </div>
       <div className="Auth-form-containerV">
-        <div className="card1">
+        {/* CARD 1 STARTS HERE */}
+        <div  className="card1" onClick={() => HandleClick("/physics") } >
           <span className="afc-learning-prg-title">PHYSICS</span>
           <div className="afc-left-image-card">
             <img className="img-phy-logo" src="./btla.png" alt="PHY" />
@@ -54,7 +66,8 @@ export default function UserHome() {
             <img className="bfc-right-img-card-img" src="./IAS.png" alt="IAS" />
           </div>
         </div>
-        <div className="card2">
+        {/* CARD 2 STARTING HERE */}
+        <div className="card2" onClick={() => HandleClick("/maths") }>
           <span className="afc-learning-prg-title2">MATHS</span>
           <div className="afc-left-image-card2">
             <img className="img-mth-logo" src="./imgcard1.jpg" alt="CD2" />
@@ -88,7 +101,8 @@ export default function UserHome() {
             />
           </div>
         </div>
-        <div className="card3">
+        {/* CARD 3 STARTING HERE */}
+        <div className="card3" onClick={() => HandleClick("/chemistry") }>
           <span className="afc-learning-prg-title3">CHEMISTRY</span>
           <div className="afc-left-image-card3">
             <img className="img-chm-logo" src="./imgcards4.png" alt="imcard4" />
@@ -125,4 +139,5 @@ export default function UserHome() {
       </div>
     </div>
   );
-}
+}      
+

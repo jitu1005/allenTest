@@ -5,7 +5,12 @@ import LandingPage from "./Component/LandingPage";
 import LoginPage from "./Component/LoginPage";
 import SignUp from "./Component/SignUp";
 import UserHome from "./Component/UserHome"
+import Physics from "./Component/Physics";
+import Chemistry from "./Component/Chemistry";
+import Maths from "./Component/Maths";
+import LivePage from "./Component/LivePage"
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+
 
 function App() {
   return (
@@ -19,6 +24,10 @@ function App() {
            <Route exact path= "/loginpage" element={<LoginPage/>}></Route>
            <Route exact path= "/signupPage" element={<SignUp/>}></Route>
            <Route exact path= "/userhome" element={<UserHome/>}></Route>
+           <Route exact path= "/physics" element={<Physics/>}></Route>
+           <Route exact path= "/maths" element={<Maths/>}></Route>
+           <Route exact path= "/chemistry" element={<Chemistry/>}></Route>
+           <Route exact path= "/livepage" element={<LivePage/>}></Route>
         </Routes>
       </Router>
     </>

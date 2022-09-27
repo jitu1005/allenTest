@@ -1,5 +1,6 @@
 .UserHome  {
-    background-color: white;
+    /* background-color: white; */
+    background-image: linear-gradient(to right,white,#00ddff);    
 
     height:100vh
 }
@@ -7,7 +8,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: auto;
+    width: auto;    
     /* height: 100vh; */
     
   }
@@ -18,6 +19,7 @@
     width: "100%";
     /* height: 100vh; */
     padding-bottom: 100px;
+    background-image: linear-gradient(to right,white,#00ddff);
     
   }
 
@@ -32,7 +34,7 @@
     border: 10px;
     /* box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); */
     /* box-shadow: 1px 2px 3px 4px rgba(20,20,20,0.4); */
-    box-shadow: 0 27px 20px -19px #069594;
+    box-shadow: 0 27px 20px -19px #104949;
     width: 220px;
     height: 260px;
     margin-left: 650px;
@@ -55,7 +57,7 @@
   .card1 {
     /* box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); */
     /* box-shadow: 1px 2px 3px 4px rgba(20,20,20,0.4); */
-    box-shadow: 0 27px 20px -19px #069594;
+    box-shadow: 0 27px 20px -19px #104949;
     width: 90%;
     height: 35%;
     margin-left: 5%;
@@ -80,7 +82,7 @@
   }
 
   .card2 {
-    box-shadow: 0 27px 20px -19px #069594;
+    box-shadow: 0 27px 20px -19px #104949;
     width: 90%; 
     height: 300px;
     margin-left: 5%;
@@ -106,7 +108,7 @@
   }
 
   .card3 {
-    box-shadow: 0 27px 20px -19px #069594;
+    box-shadow: 0 27px 20px -19px #104949;
     width: 90%; 
     height: 300px;
     margin-left: 5%;
